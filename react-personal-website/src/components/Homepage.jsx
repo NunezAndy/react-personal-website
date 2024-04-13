@@ -1,4 +1,5 @@
 import React from 'react'
+import Skills from './Skills';
 
 function Homepage() {
   return (
@@ -19,7 +20,11 @@ function Homepage() {
         <div className='hero--section--img'>
             <img src="./images/me.jpeg" alt="" />
         </div>
+        <div>
+          <Skills />
+        </div>
     </section>
+  
   );
 }
 

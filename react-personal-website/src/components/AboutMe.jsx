@@ -39,12 +39,22 @@ function AboutMe() {
             </p>
             <br></br>
             <p className="hero--section-description">
-              As of lately I've been bulding projects with the PERN (PostgreSQL,
-              Express.js, React.js and Node.js) tech stack. However, I make it a
-              personal goal to continue to learn new tech and code each day that
+              I make it a personal goal to continue to learn new tech and code each day that
               goes by. Advancing as tech does.
             </p>
             <br></br>
+
+            <h3>My Journey in Web Development</h3>
+
+        <div>
+          <div>
+            <img
+              src="./images/Certification.jpeg"
+              alt="LinkedIn Python Certificate"
+              style={certImageStyle}
+            />
+          </div>
+        </div>
 
             <div>
               <img src="./images/IMG_3497.jpeg" alt="wife" style={circleImageStyle} />
@@ -57,17 +67,7 @@ function AboutMe() {
         </div>
         <br></br>
 
-        <h3>My Journey in Web Development</h3>
-
-        <div>
-          <div>
-            <img
-              src="./images/Certification.jpeg"
-              alt="LinkedIn Python Certificate"
-              style={certImageStyle}
-            />
-          </div>
-        </div>
+        
     </section>
   );
 }
