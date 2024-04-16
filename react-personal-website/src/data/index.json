@@ -4,13 +4,15 @@
             "id": "1",
             "src": "",
             "title": "E-Commerce",
-            "description": "a camping website where you can buy and sell items"
+            "description": "a camping website where you can buy and sell items",
+            "link": "View In Github"
         },
         {
             "id": "2",
             "src": "",
             "title": "Strangers Things",
-            "description": "a craigslist type replica"
+            "description": "a craigslist type replica",
+            "link": "View In Github"
         }
     ]
 }
