@@ -91,9 +91,6 @@ function NavBar() {
                   <Button color="inherit" component={NavLink} to="/projects" sx={navLinkStyle}>
                     Portfolio
                   </Button>
-                  <Button color="inherit" component={NavLink} to="/skills" sx={navLinkStyle}>
-                    Skills
-                  </Button>
                   <Button color="inherit" component={NavLink} to="/contact" sx={navLinkStyle}>
                     Contact
                   </Button>
@@ -123,9 +120,6 @@ function NavBar() {
             </Button>
             <Button color="inherit" component={NavLink} to="/projects" sx={navLinkStyle}>
               Portfolio
-            </Button>
-            <Button color="inherit" component={NavLink} to="/skills" sx={navLinkStyle}>
-              Skills
             </Button>
             <Button color="inherit" component={NavLink} to="/contact" sx={navLinkStyle}>
               Contact

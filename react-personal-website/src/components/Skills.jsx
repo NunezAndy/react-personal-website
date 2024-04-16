@@ -5,16 +5,16 @@ const Skills = () => {
   return (
     <section className="skills-container">
       <h3>Technical Proficiency</h3>
-      <h6>FrontEnd:</h6>
-      <p>React.js, JavaScript, HTML5, CSS3</p>
+      <h5>FrontEnd:</h5>
+      <p>React.js, JavaScript, HTML5, CSS3, Material UI</p>
 
-      <h6>BackEnd:</h6>
-      <p>Node.js, Express.js, Python</p>
+      <h5>BackEnd:</h5>
+      <p>Node.js, Express.js, PostgreSQL, MongoDB, Python</p>
 
-      <h6>Tools:</h6>
-      <p>Git/Github, VS Code, Webpack, Responsive Design</p>
+      <h5>Tools:</h5>
+      <p>Git/Github, VS Code, Postico, Webpack, Responsive Design</p>
 
-      <h6>Soft Skills:</h6>
+      <h5>Soft Skills:</h5>
       <p>Problem-solving, Collaboration, Attention to Detail</p>
       
 
