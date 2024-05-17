@@ -91,9 +91,7 @@ function NavBar() {
                   <Button color="inherit" component={NavLink} to="/projects" sx={navLinkStyle}>
                     Portfolio
                   </Button>
-                  <Button color="inherit" component={NavLink} to="/contact" sx={navLinkStyle}>
-                    Contact
-                  </Button>
+                  
                   
                 </>
               )}

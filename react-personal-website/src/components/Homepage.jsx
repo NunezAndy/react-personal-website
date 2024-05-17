@@ -1,5 +1,6 @@
 import React from 'react'
 import Skills from './Skills';
+import Contact from './Contact';
 
 function Homepage() {
   return (
@@ -22,6 +23,9 @@ function Homepage() {
         </div>
         <div>
           <Skills />
+        </div>
+        <div>
+          <Contact />
         </div>
     </section>
   
