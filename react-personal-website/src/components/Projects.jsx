@@ -2,6 +2,11 @@ import React from 'react'
 import data from "../data/index.json";
 
 function Projects() {
+
+  const openGitHubLink = () => {
+    window.open('https://github.com/NunezAndy', '_blank');
+  };
+
   return (
     <section className='portfolio--section' id='MyPortfolio'>
       <div className='portfolio--container-box'>
@@ -10,7 +15,7 @@ function Projects() {
           <h2 className='section--heading'>My Portfolio</h2>
         </div>
         <div>
-        <button className="btn btn-github">
+        <button className="btn btn-github" onClick={openGitHubLink}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
